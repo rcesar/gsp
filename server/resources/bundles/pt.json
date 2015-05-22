@@ -1,0 +1,139 @@
+{
+    "validation": {
+
+        "auth_admin_request_token_invalid": "Você deve informar um token válido para acessar esse recurso.",
+        "auth_admin_request_token_null": "Você deve informar um token para acessar esse recurso.",
+
+        "auth_users_request_token_invalid": "O token informado é inválido.",
+        "auth_users_not_found": "Erro interno no servidor. Por favor, tente novamente mais tarde. Usuário não encontrado.",
+        "auth_users_invalid_request_parameters": "Parâmetro inválido. Você deve informar username, password e domainName para obter um token da aplicação.",
+        "auth_users_not_have_permission": "Você não tem permissão para acessar esse recurso. Usuário, senha ou domínio inválidos.",
+        "auth_users_error_to_generate_token": "Erro ao gerar o token.",
+        "auth_users_request_token_expired": "O seu token expirou. Por favor, obtenha um token válido novamente.",
+        "auth_users_request_internal_error_try_again": "Erro interno no servidor. Por favor, tente novamente mais tarde.",
+        "auth_users_request_token_null": "Você deve informar um token para acessar esse recurso.",
+        "auth_users_request_do_not_have_permission": "Você não tem permissão para acessar esse recurso.",
+        "auth_users_request_invalid_token": "Token inválido.",
+
+        "password_renew_error": "Falha ao renovar a senha.",
+        "password_renew_invalid_body": "Você deve informar username e domain.",
+
+        "customers_save_cnpj_customername_duplicated": "Você já tem um cliente com o mesmo nome, cpf ou cnpj.",
+        "customers_findById_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao localizar cliente.",
+        "customers_update_cnpj_username_duplicated": "Você já tem um cliente com o mesmo nome, cpf ou cnpj.",
+        "customers_not_found": "Cliente não encontrado.",
+        "customers_findAll_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. falha ao encontrar cliente.",
+        "customers_invalid_parameters": "Parâmetros inválidos.",
+        "customers_save_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao salvar o cliente.",
+        "customers_update_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao atualizar o cliente.",
+        "customers_delete_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao excluir o cliente.",
+
+        "suppliers_save_cnpj_suppliername_duplicated": "Você já tem um fornecedor com o mesmo nome, cpf ou cnpj.",
+        "suppliers_findById_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao localizar fornecedor.",
+        "suppliers_update_cnpj_username_duplicated": "Você já tem um fornecedor com o mesmo nome, cpf ou cnpj.",
+        "suppliers_not_found": "Fornecedor não encontrado.",
+        "suppliers_findAll_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. falha ao encontrar fornecedor.",
+        "suppliers_invalid_parameters": "Parâmetros inválidos.",
+        "suppliers_save_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao salvar o fornecedor.",
+        "suppliers_update_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao atualizar o fornecedor.",
+        "suppliers_delete_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao excluir o fornecedor.",
+
+        "product_not_found": "Produto não encontrado.",
+        "products_update_cnpj_username_duplicated": "Você já tem um produto com o mesmo título ou descrição.",
+        "products_save_title_description_duplicated": "Você já tem um produto com o mesmo título ou descrição.",
+        "products_findById_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao localizar o produto.",
+        "products_not_found": "Produto não encontrado.",
+        "products_invalid_parameters": "parâmetros inválidos.",
+        "products_findAll_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao localizar os produtos.",
+        "products_save_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao salvar o produto",
+        "products_update_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao atualizar o produto",
+        "products_delete_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao excluir o produto",
+
+        "orders_not_found": "Pedido não encontrado.",
+        "orders_findById_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao localizar o pedido.",
+        "orders_not_found": "Pedido não encontrado.",
+        "orders_invalid_parameters": "parâmetros inválidos.",
+        "orders_findAll_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao localizar os pedidos.",
+        "orders_save_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao salvar o pedido",
+        "orders_update_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao atualizar o pedido",
+        "orders_delete_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao excluir o pedido",
+        "orders_items_null":"É necessário informar pelo menos um item.",
+        "orders_payments_null":"É necessário informar pelo menos um pagamento.",
+
+        "users_updatePassword_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao atualizar a senha.",
+        "users_service_middleware_internal_error_try_again": "Erro interno no servidor. Por favor, tente novamente mais tarde.",
+        "users_service_middleware_do_not_have_permission": "Você não tem permissão para acessar esse recurso.",
+        "users_service_middleware_token_null": "Você deve informar um token para acessar esse recurso.",
+        "users_id_and_domain_null": "UserId e DomainName não podem ser nulos.",
+        "users_domain_null": "DomainName não pode ser nulo.",
+        "users_you_can_not_delete_yourself": "Você não pode deletar seu próprio usuário.",
+        "users_you_can_not_deactivate_yourself": "Você não pode desativar seu próprio usuário.",
+        "users_updatePassword_invalid_newPassword_parameter": "O parâmetro newPassword é inválido. Ele deve ter de 5 a 8 caracteres.",
+        "users_updatePassword_not_update_another_user": "Você não pode atualizar a senha de outro usuário.",
+
+        "index_error_retrieving_func": "Erro ao localizar o serviço. Verifique se você informou o nome e versão do serviço corretamente.",
+
+        "http_utils_invalid_request_parameter_role": "Parâmetro role inválido.",
+        "http_utils_invalid_request_parameters": "Parâmetro inválido. Você tem que informar uma estrutura válida para o serviço.",
+        "http_utils_invalid_request_parameter_id": "Parâmetro id inválido. Você tem que informar uma estrutura válida para o serviço.",
+        "http_utils_invalid_request_body": "Você tem que informar uma estrutura válida para o serviço.",
+        "http_utils_invalid_request_body_id": "Parâmetro id inválido. Esse parâmetro não deve ser informado.",
+        "http_utils_invalid_request_body_createDateTime": "Parâmetro createDateTime inválido. Esse parâmetro não deve ser informado.",
+        "http_utils_invalid_request_body_changeDateTime": "Parâmetro changeDateTime inválido. Esse parâmetro não deve ser informado.",
+        "http_utils_invalid_body_username": "Username inválido.",
+        "http_utils_invalid_body_domainName": "DomainName não pode ser nulo.",
+        "http_utils_invalid_request_parameters_fromPage": "Parâmetro fromPage inválido.",
+        "http_utils_invalid_request_parameters_limit": "Parâmetro limit inválido.",
+        "http_utils_invalid_request_parameters_parentId": "Parâmetro parentId inválido.",
+        "http_utils_invalid_request_parameters_onlyParents": "Parâmetro onlyParents inválido.",
+        "http_utils_invalid_request_parameters_sortBy": "Parâmetro sortBy inválido.",
+        "http_utils_invalid_request_parameters_changeAfter": "Parâmetro changeAfter inválido.",
+
+        "http_utils_invalid_executeForDomain_request_parameters": "Parâmetro inválido. Você tem que informar o parãmetro executeForDomain para executar esse serviço.",
+        "http_utils_invalid_request_parameter_changeDateTime": "Parâmetro changeDateTime inválido. Você tem que informar uma estrutura válida para o serviço.",
+        "http_utils_invalid_request_parameter_token": "Parâmetro token inválido. Você não pode definir o token.",
+        "http_utils_invalid_request_parameter_createDateTime": "Parâmetro createDateTime inválido. Você tem que informar uma estrutura válida para o serviço.",
+        "http_utils_invalid_request_parameter_changeAfter": "Parâmetro changeAfter inválido. Você tem que informar uma estrutura válida para o serviço.",
+        "http_utils_invalid_request_parameter_fromPage": "Parâmetro fromPage inválido. Você tem que informar uma estrutura válida para o serviço.",
+        "http_utils_invalid_body_newPassword": "Parâmetro newPassword inválido. NewPassword deve ter de 5 a 8 caracteres.",
+
+        "json_utils_invalid_parameters": "LogMessage não pode ser nulo.",
+        "json_utils_no_document_founded": "Nenhum registro encontrado.",
+
+        "users_not_found": "Usuário não encontrado.",
+        "users_username_password_domain_not_found": "O usuário informado não foi encontrado nesse domínio. Por favor verifique o usuário, a senha e o domínio.",
+        "users_update_username_duplicated": "Você já tem um usuário com o mesmo nome.",
+        "users_findById_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao localizar usuário.",
+        "users_save_username_duplicated": "Você já tem um usuário com o mesmo nome.",
+        "users_findAll_error": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao localizar usuários.",
+        "users_save_error": "Erro interno no servidor. Por favor, tente novamente mais tarde.  Falha ao salvar usuário.",
+        "users_update_error": "Erro interno no servidor. Por favor, tente novamente mais tarde.  Falha ao atualizar usuário.",
+        "users_delete_error": "Erro interno no servidor. Por favor, tente novamente mais tarde.  Falha ao excluir usuário.",
+        "users_invalid_parameters": "Parâmetros inválidos.",
+        "users_renew_password_error": "Erro interno no servidor. Por favor, tente novamente mais tarde.",
+
+        "auth_admin_invalid_request_parameters": "Parâmetro inválido. Você deve informar username e password para obter um token.",
+        "auth_admin_invalid_username_or_password": "Username ou password inválidos. Por favor, tente novamente mais tarde.",
+        "auth_admin_null_username_and_password": "Username e password não podem ser nulos. Por favor, tente novamente mais tarde.",
+
+        "authorization_middleware_not_allowed": "Você não tem permissão para acessar esse recurso.",
+
+        "storage_findOneByCriteria_null": "Parâmetro inválido. Você deve informar um critério para a pesquisa.",
+        "storage_objectId_invalid": "Você deve informar um id válido.",
+
+        "email_service_invalid_user": "Impossível enviar e-mail. User ou password inválidos.",
+        "token_criteria_invalid": "O critério de pesquisa deve conter o nome do domínio."
+    },
+    "internal_error": {
+        "auth_users_required_to_generate_token": "É obrigatório informar um username para gerar o token.",
+        "auth_users_generate_invalid_token": "Foi gerado um token inválido.",
+        "auth_users_fail_to_generate_token": "Erro interno no servidor. Por favor, tente novamente mais tarde. Falha ao gerar token.",
+
+        "errors_utils_internal_error": "Erro interno no servidor. Por favor, tente novamente mais tarde.",
+        "error_utils_invalid_parameters": "Parâmetro inválido para definir a mensagem de erro."
+    },
+    "messages": {
+        "email_subject_send_password_to_users": "VOPP Backoffice",
+        "email_renew_password_sent": "Em instantes será enviado um e-mail para você com a nova senha."
+    }
+}

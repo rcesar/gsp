@@ -1,0 +1,137 @@
+{
+    "validation": {
+
+        "auth_admin_request_token_invalid": "You must inform a valid token to access this resource.",
+        "auth_admin_request_token_null": "You must inform a token to access this resource.",
+
+        "auth_users_request_token_invalid": "You must inform a valid token.",
+        "auth_users_not_found": "Internal server error. Please, try again later. User not found.",
+        "auth_users_invalid_request_parameters": "Invalid request parameter. You must inform a valid username, password and domain name to get an application token.",
+        "auth_users_not_have_permission": "You do not have permission to access this resource. Invalid user.",
+        "auth_users_error_to_generate_token": "Error generating token.",
+        "auth_users_request_token_expired": "Your token is expired. Please, get a valid token again.",
+        "auth_users_request_internal_error_try_again": "Internal server error. Please, try again later.",
+        "auth_users_request_token_null": "You must inform a token to access this resource.",
+        "auth_users_request_do_not_have_permission": "You do not have permission to access this resource.",
+        "auth_users_request_invalid_token": "Invalid token.",
+
+        "password_renew_error": "Fail to renew password.",
+        "password_renew_invalid_body": "You must inform an username and domain.",
+
+        "customers_save_cnpj_customername_duplicated": "You already have a customer with the same customerName, cpf or cnpj.",
+        "customers_findById_error": "Internal server error. Please, try again later. Fail to find customer.",
+        "customers_update_cnpj_username_duplicated": "You already have a customer with the same name, cpf or cnpj.",
+        "customers_not_found": "Customer not found.",
+        "customers_findAll_error": "Internal server error. Please, try again later. Fail to find customers.",
+        "customers_invalid_parameters": "Invalid parameters.",
+        "customers_save_error": "Internal server error. Please, try again later. Fail to save customer.",
+        "customers_update_error": "Internal server error. Please, try again later. Fail to update customer.",
+        "customers_delete_error": "Internal server error. Please, try again later. Fail to delete customer.",
+
+        "suppliers_save_cnpj_suppliername_duplicated": "You already have a supplier with the same supplierName, cpf or cnpj.",
+        "suppliers_findById_error": "Internal server error. Please, try again later. Fail to find supplier.",
+        "suppliers_update_cnpj_username_duplicated": "You already have a supplier with the same name, cpf or cnpj.",
+        "suppliers_not_found": "Supplier not found.",
+        "suppliers_findAll_error": "Internal server error. Please, try again later. Fail to find suppliers.",
+        "suppliers_invalid_parameters": "Invalid parameters.",
+        "suppliers_save_error": "Internal server error. Please, try again later. Fail to save supplier.",
+        "suppliers_update_error": "Internal server error. Please, try again later. Fail to update supplier.",
+        "suppliers_delete_error": "Internal server error. Please, try again later. Fail to delete supplier.",
+
+        "product_not_found": "Product not found.",
+        "products_update_cnpj_username_duplicated": "You already have a product with the same title and description.",
+        "products_save_title_description_duplicated": "You already have a product with the same title and description.",
+        "products_findById_error": "Internal server error. Please, try again later. Fail to find product.",
+        "products_not_found": "Products not found.",
+        "products_invalid_parameters": "Invalid parameters.",
+        "products_findAll_error": "Internal server error. Please, try again later. Fail to find products.",
+        "products_save_error": "Internal server error. Please, try again later. Fail to save product.",
+        "products_update_error": "Internal server error. Please, try again later. Fail to update product.",
+        "products_delete_error": "Internal server error. Please, try again later. Fail to delete product.",
+
+        "order_not_found": "Product not found.",
+        "orders_findById_error": "Internal server error. Please, try again later. Fail to find order.",
+        "orders_not_found": "Orders not found.",
+        "orders_invalid_parameters": "Invalid parameters.",
+        "orders_findAll_error": "Internal server error. Please, try again later. Fail to find orders.",
+        "orders_save_error": "Internal server error. Please, try again later. Fail to save order.",
+        "orders_update_error": "Internal server error. Please, try again later. Fail to update order.",
+        "orders_delete_error": "Internal server error. Please, try again later. Fail to delete order.",
+
+        "users_updatePassword_error": "Internal server error. Please, try again later. Fail to update password.",
+        "users_service_middleware_internal_error_try_again": "Internal server error. Please, try again later.",
+        "users_service_middleware_do_not_have_permission": "You do not have permission to access this resource.",
+        "users_service_middleware_token_null": "You must inform a token to access this resource.",
+        "users_id_and_domain_null": "UserId and Domain Name can not be null.",
+        "users_domain_null": "Domain Name can not be null.",
+        "users_you_can_not_delete_yourself": "You can not delete yourself.",
+        "users_you_can_not_deactivate_yourself": "You can not deactivate yourself.",
+        "users_updatePassword_invalid_newPassword_parameter": "Invalid newPassword in request body. NewPassword should have between 5 and 8 characters.",
+        "users_updatePassword_not_update_another_user": "You can not update the password of another user.",
+
+        "index_error_retrieving_func": "Error retrieving function. Verify if requested path have a valid version and service.",
+
+        "http_utils_invalid_request_parameter_role": "Invalid role parameter.",
+        "http_utils_invalid_request_parameters": "Invalid request parameter. You must inform a valid structure.",
+        "http_utils_invalid_request_parameter_id": "Invalid id parameter. You must inform a valid structure.",
+        "http_utils_invalid_request_body": "You must inform a valid body structure.",
+        "http_utils_invalid_request_body_id": "Invalid id in request body. This parameter is not necessary.",
+        "http_utils_invalid_request_body_createDateTime": "Invalid createDateTime in request body. This parameter is not necessary.",
+        "http_utils_invalid_request_body_changeDateTime": "Invalid changeDateTime in request body. This parameter is not necessary.",
+        "http_utils_invalid_body_username": "Username can not be null.",
+        "http_utils_invalid_body_domainName": "DomainName can not be null.",
+        "http_utils_invalid_request_parameters_fromPage": "Invalid fromPage parameter.",
+        "http_utils_invalid_request_parameters_limit": "Invalid limit parameter.",
+        "http_utils_invalid_request_parameters_parentId": "Invalid parentId parameter.",
+        "http_utils_invalid_request_parameters_onlyParents": "Invalid onlyParents parameter.",
+        "http_utils_invalid_request_parameters_sortBy": "Invalid sortBy parameter.",
+        "http_utils_invalid_request_parameters_changeAfter": "Invalid changeAfter parameter.",
+
+        "http_utils_invalid_executeForDomain_request_parameters": "Invalid request parameter. You must inform a valid executeForDomain request parameter.",
+        "http_utils_invalid_request_parameter_changeDateTime": "Invalid changeDateTime parameter. You must inform a valid structure.",
+        "http_utils_invalid_request_parameter_token": "Invalid token parameter on body. You can not define a backoffice user token.",
+        "http_utils_invalid_request_parameter_createDateTime": "Invalid createDateTime parameter. You must inform a valid structure.",
+        "http_utils_invalid_request_parameter_changeAfter": "Invalid changeAfter parameter. You must inform a valid structure.",
+        "http_utils_invalid_request_parameter_fromPage": "Invalid fromPage parameter. You must inform a valid structure.",
+        "http_utils_invalid_body_newPassword": "Invalid newPassword in request body. NewPassword should have between 5 and 8 characters.",
+
+        "json_utils_invalid_parameters": "LogMessage parameter can not be null.",
+        "json_utils_no_document_founded": "No documents founded.",
+
+        "users_not_found": "User not found.",
+        "users_update_username_duplicated": "You already have a user with the same username.",
+        "users_findById_error": "Internal server error. Please, try again later. Fail to find backoffice user.",
+        "users_save_username_duplicated": "You already have a user with the same username.",
+        "users_findAll_error": "Internal server error. Please, try again later. Fail to find backoffice users.",
+        "users_save_error": "Internal server error. Please, try again later. Fail to save backoffice user.",
+        "users_update_error": "Internal server error. Please, try again later. Fail to update backoffice user.",
+        "users_delete_error": "Internal server error. Please, try again later. Fail to delete backoffice user.",
+        "users_invalid_parameters": "Invalid parameters.",
+        "users_renew_password_error": "Internal error. Please, try again later.",
+
+        "auth_admin_invalid_request_parameters": "Invalid request parameter. You must inform a valid username and password to get an application admin token.",
+        "auth_admin_invalid_username_or_password": "Invalid username or password. Please try again.",
+        "auth_admin_null_username_and_password": "Username and password can not be null. Please try again.",
+
+        "authorization_middleware_not_allowed": "You do not have permission to access this resource.",
+
+        "storage_findOneByCriteria_null": "Invalid parameter. You must inform a valid criteria.",
+        "storage_objectId_invalid": "You must inform a valid resource id.",
+
+        "email_service_invalid_user": "It is impossible send e-mail. Invalid user or password parameters.",
+        "token_criteria_invalid": "Criteria must contain a domainName."
+
+    },
+    "internal_error": {
+        "auth_users_required_to_generate_token": "User is required to generate token.",
+        "auth_users_generate_invalid_token": "JWT generate an invalid token.",
+        "auth_users_fail_to_generate_token": "Internal server error. Please, try again later. Fail to generate token.",
+
+        "errors_utils_internal_error": "Internal error. Please, try again later.",
+        "error_utils_invalid_parameters": "Invalid parameter to define error message."
+    },
+    "messages": {
+        "email_subject_send_password_to_users": "VOPP Backoffice",
+        "email_renew_password_sent": "You received an e-mail with the new password."
+    }
+}
